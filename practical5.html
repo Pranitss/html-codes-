@@ -1,0 +1,45 @@
+<!-- Write a program in HTML to illustrate the below given formats. a) The page should contain a paragraph
+which is centrally aligned. b) FIRST line of the paragraph should be BOLD and ITALIC. c)
+STRIKEOUT the Second Line. d) Underline and change the color to RED, of the third line. e) Change
+the font size of the fourth Line to 15. f) Change the color of the text to GREEN. g) Two horizontal lines
+below the paragraph. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Formatting of Paragraph</title>
+ <style>
+ .centered-paragraph {
+ text-align: center;
+ }
+ .first-line {
+ font-weight: bold;
+ font-style: italic;
+ }
+ .second-line {
+ text-decoration: line-through;
+ }
+ .third-line {
+ text-decoration: underline;
+ color: red;
+ }
+ .fourth-line {
+ font-size: 15px;
+ color: green;
+ }
+ </style>
+</head>
+<body>
+ <h1><center>Formatting of Paragraph</center></h1>
+ <hr>
+ <p class="centered-paragraph">
+ <span class="first-line">This is the first line, which is bold and italic.</span><br>
+ <span class="second-line">This is the second line, which is striked out.</span><br>
+ <span class="third-line">This is the third line, which is underlined and red in color.</span><br>
+ <span class="fourth-line">This is the fourth line, with font size 15 and green color.</span>
+ </p>
+ <hr>
+</body>
+</html> 

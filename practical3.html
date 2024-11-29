@@ -1,0 +1,63 @@
+<!-- Write a program using CSS to create a table and demonstrate how to use different font. -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Table with Different Fonts</title>
+ <style>
+ /* Styling the table */
+ table {
+ width: 70%;
+ border-collapse: collapse;
+ margin: 20px auto;
+ text-align: center;
+ }
+ th, td {
+ border: 2px solid black;
+ padding: 10px;
+ }
+ th {
+ background-color: #f4f4f4;
+ font-family: "Times New Roman", Times, serif;
+ font-size: 18px;
+ }
+ td:nth-child(1) {
+ font-family: Arial, sans-serif;
+ font-size: 16px;
+ color: #801111;
+ }
+ td:nth-child(2) {
+ font-family: "Courier New", Courier, monospace;
+ font-size: 16px;
+ color: #132e01;
+ }
+ td:nth-child(3) {
+ font-family: Georgia, serif;
+ font-size: 16px;
+ color: #082550;
+ }
+</style>
+</head>
+<body>
+ <h1 style="text-align: center;">CSS Table with Different Fonts</h1>
+ <table>
+ <tr>
+ <th>Column 1 (Arial)</th>
+ <th>Column 2 (Courier New)</th>
+ <th>Column 3 (Georgia)</th>
+ </tr>
+ <tr>
+ <td>Text in Arial</td>
+ <td>Text in Courier New</td> 
+ <td>Text in Georgia</td>
+ </tr>
+ <tr>
+ <td>Another Arial Text</td>
+ <td>Another Courier Text</td>
+ <td>Another Georgia Text</td>
+ </tr>
+ </table>
+</body>
+</html> 
